@@ -14,22 +14,32 @@
 
         <section>
           <a href="views/landing-page.html">Landing Page</a>
-          <p>User Flows: </p>
+          <ul>User Flows:</ul>
+          <li>User can click on get started now to be taken to the registration page</li>
         </section>
 
         <section>
           <a href="views/registration.html">Registration Page</a>
-          <p>User Flows: </p>
+          <ul>User Flows:</ul>
+          <li>user enters a valid user name and password, and selects at least one preferred source. => new account is created and user is directed to personal feed</li>
+          <li>user enters invalid account data (missing required fields, username taken, not selecting at least one source) => user is prompted to fix issues before continuing</li>
         </section>
 
         <section>
           <a href="views/search.html">Search Page</a>
-          <p>User Flows: </p>
+          <ul>User Flows:</ul>
+          <li>user enters search term, chooses sort and display method and submits search. => results from the users preferred sources are provided.</li>
+          <li>user clicks on article title or image. => user is redirected to the article url.</li>
+          <li>user clicks on publication name. => user is directed to publication homepage.</li>
         </section>
 
         <section>
           <a href="views/feed.html">Feed Page</a>
-          <p>User Flows: </p>
+          <ul>User Flows:</ul>
+          <li>user clicks on check the news. new get request is made to return updated results.</li>
+          <li>user clicks on article title or image. => user is redirected to the article url.</li>
+          <li>user clicks on publication name. => user is directed to publication homepage.</li>
+          <li>user clicks on see more. the next set of articles from the original get request are shown.</li>
         </section>
         
     </main>
